@@ -2,8 +2,8 @@
 <CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
 <XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
   <AddMenu>
-    <eng>Instrument Addon</eng>
-    <loc>Instrument Addon</loc>
+    <eng>National Instruments::Instrument Addon</eng>
+    <loc>National Instruments::Instrument Addon</loc>
   </AddMenu>
   <Version>1.5.4</Version>
   <Type>Inline HW Interface</Type>
@@ -1050,23 +1050,6 @@
           </Documentation>
         </Button>
       </ButtonList>
-    </Page>
-    <Page>
-      <Name>
-        <eng>Remaining Elements</eng>
-        <loc>Remaining Elements</loc>
-      </Name>
-      <DisallowRenaming>true</DisallowRenaming>
-      <DeleteProtection>true</DeleteProtection>
-      <GUID>72826220-a1a4-42f5-a5ae-087df2bbd482</GUID>
-      <Glyph>
-        <Type>To Application Data Dir</Type>
-        <Path>System Explorer\Glyphs\Progress.png</Path>
-      </Glyph>
-      <Item2Launch>
-        <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Instrument Addon\Windows\Instrument Addon Configuration.llb\Remaining Elements Channel Page.vi</Path>
-      </Item2Launch>
     </Page>
     <Page>
       <Name>
